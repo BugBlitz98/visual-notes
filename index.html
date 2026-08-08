@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Canvas Notes Studio – Infinite Visual Note Editor for macOS</title>
-  <meta name="description" content="Canvas Notes Studio is a premium visual canvas-based note editor for macOS. Connect ideas, perform AI image analysis, and build bi-directional graph knowledge networks." />
-  <meta name="keywords" content="Canvas Notes Studio, Mac App Store, visual note editor, mind map, graph notes, macos app, image analysis, obsidian alternative" />
-  
+  <meta name="description"
+    content="Canvas Notes Studio is a premium visual canvas-based note editor for macOS. Connect ideas, perform AI image analysis, and build bi-directional graph knowledge networks." />
+  <meta name="keywords"
+    content="Canvas Notes Studio, Mac App Store, visual note editor, mind map, graph notes, macos app, image analysis, obsidian alternative" />
+
   <!-- Open Graph / Social -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Canvas Notes Studio – Visual Note Editor for macOS" />
-  <meta property="og:description" content="Organize your thoughts on an infinite interactive canvas. Available now on the Mac App Store." />
+  <meta property="og:description"
+    content="Organize your thoughts on an infinite interactive canvas. Available now on the Mac App Store." />
   <meta property="og:image" content="assets/screenshot-canvas-main.png" />
-  
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
   <!-- Premium Ambient Background Glows -->
@@ -36,17 +43,17 @@
             <circle cx="6" cy="6" r="3.5" fill="url(#brandGrad1)" />
             <circle cx="18" cy="6" r="3.5" fill="url(#brandGrad1)" />
             <circle cx="12" cy="18" r="4.5" fill="url(#brandGrad2)" />
-            <path d="M7.8 7.8L10.2 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-            <path d="M16.2 7.8L13.8 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-            <path d="M9 6H15" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2" opacity="0.4"/>
+            <path d="M7.8 7.8L10.2 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+            <path d="M16.2 7.8L13.8 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+            <path d="M9 6H15" stroke="currentColor" stroke-width="2" stroke-dasharray="2 2" opacity="0.4" />
             <defs>
               <linearGradient id="brandGrad1" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#818CF8"/>
-                <stop offset="1" stop-color="#C084FC"/>
+                <stop stop-color="#818CF8" />
+                <stop offset="1" stop-color="#C084FC" />
               </linearGradient>
               <linearGradient id="brandGrad2" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#38BDF8"/>
-                <stop offset="1" stop-color="#818CF8"/>
+                <stop stop-color="#38BDF8" />
+                <stop offset="1" stop-color="#818CF8" />
               </linearGradient>
             </defs>
           </svg>
@@ -63,9 +70,11 @@
       </nav>
 
       <div class="nav-cta">
-        <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank" rel="noopener" class="btn btn-nav">
+        <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank" rel="noopener"
+          class="btn btn-nav">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z"/>
+            <path
+              d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z" />
           </svg>
           <span>Mac App Store</span>
         </a>
@@ -83,7 +92,7 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="container hero-container">
-        
+
         <div class="hero-badge">
           <span class="badge-dot"></span>
           <span>Official macOS Release &bull; Available on Mac App Store</span>
@@ -95,15 +104,18 @@
         </h1>
 
         <p class="hero-subtitle">
-          Connect ideas bi-directionally on an infinite interactive graph canvas. Transform notes, complex diagrams, and visual images into an interconnected knowledge network.
+          Connect ideas bi-directionally on an infinite interactive graph canvas. Transform notes, complex diagrams, and
+          visual images into an interconnected knowledge network.
         </p>
 
         <!-- Main Mac App Store Action Buttons -->
         <div class="hero-cta-group">
           <!-- Official Mac App Store Badge Button -->
-          <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank" rel="noopener" class="mac-store-btn-premium">
+          <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank" rel="noopener"
+            class="mac-store-btn-premium">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z"/>
+              <path
+                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z" />
             </svg>
             <div class="badge-text-col">
               <span class="badge-sub">Download on the</span>
@@ -114,7 +126,8 @@
           <!-- Windows Coming Soon Badge -->
           <div class="windows-coming-soon-btn">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" opacity="0.6">
-              <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.8"/>
+              <path
+                d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.8" />
             </svg>
             <div class="badge-text-col">
               <span class="badge-sub">Windows Edition</span>
@@ -129,7 +142,7 @@
     <!-- Product Intro Video Showcase Section -->
     <section class="video-showcase-section" id="intro-video">
       <div class="container">
-        
+
         <div class="video-wrapper-glass">
           <div class="window-titlebar">
             <div class="window-controls">
@@ -142,10 +155,11 @@
           </div>
 
           <div class="video-container" id="videoContainer">
-            <!-- Native HTML5 Video Player using user's intro2.mov -->
-            <video id="introVideoPlayer" class="video-element" controls playsinline poster="assets/screenshot-canvas-main.png" preload="metadata">
-              <source src="assets/intro2.mov" type="video/quicktime">
-              <source src="assets/intro2.mov" type="video/mp4">
+            <!-- Native HTML5 Video Player using user's intro2.mp4 -->
+            <video id="introVideoPlayer" class="video-element" controls playsinline
+              poster="assets/screenshot-canvas-main.png" preload="metadata">
+              <source src="assets/intro2.mp4" type="video/quicktime">
+              <source src="assets/intro2.mp4" type="video/mp4">
               Your browser does not support video playback.
             </video>
           </div>
@@ -157,61 +171,88 @@
     <!-- Core Features Grid -->
     <section class="features-section" id="features">
       <div class="container">
-        
+
         <div class="section-header">
           <span class="section-tag">Crafted for macOS</span>
           <h2 class="section-title">Turn fragmented thoughts into structured clarity</h2>
-          <p class="section-desc">Experience fluid canvas navigation, Markdown intelligence, and native Mac performance.</p>
+          <p class="section-desc">Experience fluid canvas navigation, Markdown intelligence, and native Mac performance.
+          </p>
         </div>
 
         <div class="features-grid">
-          
+
           <div class="feature-card">
             <div class="feature-icon glow-indigo">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="18" cy="5" r="3" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="19" r="3" />
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+              </svg>
             </div>
             <h3>Bi-Directional Graph Network</h3>
-            <p>Visually link notes, concepts, and images. Watch your personal knowledge base expand as an organic graph network.</p>
+            <p>Visually link notes, concepts, and images. Watch your personal knowledge base expand as an organic graph
+              network.</p>
           </div>
 
           <div class="feature-card">
             <div class="feature-icon glow-purple">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
             </div>
             <h3>Full Markdown & Code Highlight</h3>
-            <p>Write freely with inline Markdown syntax, code block formatting, nested lists, tags, and mathematical equations.</p>
+            <p>Write freely with inline Markdown syntax, code block formatting, nested lists, tags, and mathematical
+              equations.</p>
           </div>
 
           <div class="feature-card">
             <div class="feature-icon glow-cyan">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+              </svg>
             </div>
             <h3>Infinite Zoom Canvas</h3>
-            <p>Pan and zoom effortlessly across thousands of note nodes with fluid 60FPS Metal GPU accelerated performance.</p>
+            <p>Pan and zoom effortlessly across thousands of note nodes with fluid 60FPS Metal GPU accelerated
+              performance.</p>
           </div>
 
           <div class="feature-card">
             <div class="feature-icon glow-emerald">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
             </div>
             <h3>100% Offline & Private</h3>
-            <p>Your notes and diagrams stay securely on your local Mac disk. Complete data privacy with zero compulsory cloud login.</p>
+            <p>Your notes and diagrams stay securely on your local Mac disk. Complete data privacy with zero compulsory
+              cloud login.</p>
           </div>
 
           <div class="feature-card">
             <div class="feature-icon glow-amber">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
             </div>
             <h3>Visual Image Intelligence</h3>
-            <p>Drop images directly onto your canvas to extract key entity relationships, bounding boxes, and OCR text notes.</p>
+            <p>Drop images directly onto your canvas to extract key entity relationships, bounding boxes, and OCR text
+              notes.</p>
           </div>
 
           <div class="feature-card">
             <div class="feature-icon glow-rose">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
             </div>
             <h3>Flexible Export Formats</h3>
-            <p>Export your full workspace anytime into standard Markdown archives, raw JSON schemas, or high-resolution PNG images.</p>
+            <p>Export your full workspace anytime into standard Markdown archives, raw JSON schemas, or high-resolution
+              PNG images.</p>
           </div>
 
         </div>
@@ -222,21 +263,23 @@
     <!-- App Showcase Gallery Section using User Screenshots -->
     <section class="app-showcase-section" id="app-showcase">
       <div class="container">
-        
+
         <div class="section-header">
           <span class="section-tag">Interactive Interface</span>
           <h2 class="section-title">Designed for focus, clarity & depth</h2>
-          <p class="section-desc">Explore the macOS workspace across canvas graphs, image analysis, and note management.</p>
+          <p class="section-desc">Explore the macOS workspace across canvas graphs, image analysis, and note management.
+          </p>
         </div>
 
         <div class="showcase-rows">
-          
+
           <!-- Feature Block 1: Main Canvas -->
           <div class="showcase-row">
             <div class="showcase-info">
               <span class="feature-badge">Visual Canvas</span>
               <h3>Infinite Canvas with Node Connections</h3>
-              <p>Map your thoughts seamlessly. Organize notes as visual cards connected with bi-directional links, tags, and custom color categories.</p>
+              <p>Map your thoughts seamlessly. Organize notes as visual cards connected with bi-directional links, tags,
+                and custom color categories.</p>
               <ul class="bullet-list">
                 <li>Dynamic node dragging & snapping</li>
                 <li>Bi-directional link tracking</li>
@@ -244,9 +287,15 @@
               </ul>
             </div>
             <div class="showcase-img-box gallery-trigger" data-img="assets/screenshot-canvas-main.png">
-              <img src="assets/screenshot-canvas-main.png" alt="Canvas Notes Studio Main Canvas View" class="showcase-img" />
+              <img src="assets/screenshot-canvas-main.png" alt="Canvas Notes Studio Main Canvas View"
+                class="showcase-img" />
               <div class="zoom-overlay">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  <line x1="11" y1="8" x2="11" y2="14" />
+                  <line x1="8" y1="11" x2="14" y2="11" />
+                </svg>
                 <span>Click to Expand</span>
               </div>
             </div>
@@ -257,7 +306,8 @@
             <div class="showcase-info">
               <span class="feature-badge cyan">AI Image Analysis</span>
               <h3>Extract Knowledge from Diagrams & Images</h3>
-              <p>Analyze architecture diagrams, whiteboards, or flowcharts directly on your canvas. Extract text, identify concepts, and link them to your notes.</p>
+              <p>Analyze architecture diagrams, whiteboards, or flowcharts directly on your canvas. Extract text,
+                identify concepts, and link them to your notes.</p>
               <ul class="bullet-list">
                 <li>Automated entity & bounding box detection</li>
                 <li>Instant OCR text conversion</li>
@@ -265,9 +315,15 @@
               </ul>
             </div>
             <div class="showcase-img-box gallery-trigger" data-img="assets/screenshot-image-analysis.png">
-              <img src="assets/screenshot-image-analysis.png" alt="Canvas Notes Studio Image Analysis Feature" class="showcase-img" />
+              <img src="assets/screenshot-image-analysis.png" alt="Canvas Notes Studio Image Analysis Feature"
+                class="showcase-img" />
               <div class="zoom-overlay">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  <line x1="11" y1="8" x2="11" y2="14" />
+                  <line x1="8" y1="11" x2="14" y2="11" />
+                </svg>
                 <span>Click to Expand</span>
               </div>
             </div>
@@ -278,7 +334,8 @@
             <div class="showcase-info">
               <span class="feature-badge purple">Knowledge Graph</span>
               <h3>Interactive Node Network View</h3>
-              <p>Zoom out to reveal the full map of your mind. Uncover hidden connections between project research, meeting logs, and technical specs.</p>
+              <p>Zoom out to reveal the full map of your mind. Uncover hidden connections between project research,
+                meeting logs, and technical specs.</p>
               <ul class="bullet-list">
                 <li>Interactive force-directed graph rendering</li>
                 <li>Instant search & node filtering</li>
@@ -286,9 +343,15 @@
               </ul>
             </div>
             <div class="showcase-img-box gallery-trigger" data-img="assets/screenshot-node-graph.png">
-              <img src="assets/screenshot-node-graph.png" alt="Canvas Notes Studio Knowledge Graph Network" class="showcase-img" />
+              <img src="assets/screenshot-node-graph.png" alt="Canvas Notes Studio Knowledge Graph Network"
+                class="showcase-img" />
               <div class="zoom-overlay">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  <line x1="11" y1="8" x2="11" y2="14" />
+                  <line x1="8" y1="11" x2="14" y2="11" />
+                </svg>
                 <span>Click to Expand</span>
               </div>
             </div>
@@ -299,7 +362,8 @@
             <div class="showcase-info">
               <span class="feature-badge emerald">Markdown Editor</span>
               <h3>Rich Markdown Writing Environment</h3>
-              <p>Enjoy a clean, distraction-free writing experience with full Markdown syntax support, inline media embeds, and instant preview side-by-side.</p>
+              <p>Enjoy a clean, distraction-free writing experience with full Markdown syntax support, inline media
+                embeds, and instant preview side-by-side.</p>
               <ul class="bullet-list">
                 <li>Syntax highlighting for 30+ languages</li>
                 <li>LaTeX math formula rendering</li>
@@ -307,9 +371,15 @@
               </ul>
             </div>
             <div class="showcase-img-box gallery-trigger" data-img="assets/screenshot-editor-view.png">
-              <img src="assets/screenshot-editor-view.png" alt="Canvas Notes Studio Markdown Editor Workspace" class="showcase-img" />
+              <img src="assets/screenshot-editor-view.png" alt="Canvas Notes Studio Markdown Editor Workspace"
+                class="showcase-img" />
               <div class="zoom-overlay">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  <line x1="11" y1="8" x2="11" y2="14" />
+                  <line x1="8" y1="11" x2="14" y2="11" />
+                </svg>
                 <span>Click to Expand</span>
               </div>
             </div>
@@ -323,7 +393,7 @@
     <!-- Download Center / Mac App Store Showcase -->
     <section class="download-hub-section" id="download-hub">
       <div class="container">
-        
+
         <div class="download-card-hero">
           <div class="dl-hero-content">
             <span class="dl-badge-tag">Mac App Store Certified</span>
@@ -331,9 +401,11 @@
             <p>Designed natively for Apple Silicon (M1/M2/M3/M4) and Intel Macs running macOS 11.0 Big Sur or later.</p>
 
             <div class="dl-hero-actions">
-              <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank" rel="noopener" class="mac-store-btn-large">
+              <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank"
+                rel="noopener" class="mac-store-btn-large">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z"/>
+                  <path
+                    d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z" />
                 </svg>
                 <div class="badge-text-col">
                   <span class="badge-sub">Download on the</span>
@@ -343,7 +415,10 @@
 
               <div class="windows-status-card">
                 <span class="win-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.8"/></svg>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.8" />
+                  </svg>
                 </span>
                 <span>Windows Version: <strong>Coming Soon</strong></span>
               </div>
@@ -357,7 +432,7 @@
     <!-- Specifications -->
     <section class="specs-section" id="specs">
       <div class="container">
-        
+
         <div class="section-header">
           <span class="section-tag">Requirements</span>
           <h2 class="section-title">System Specs & Platform Support</h2>
@@ -365,7 +440,10 @@
 
         <div class="specs-grid-dual">
           <div class="spec-card spec-highlight">
-            <div class="spec-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z"/></svg></div>
+            <div class="spec-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.8 1.11-1.92.99-3.04-.96.04-2.12.64-2.81 1.44-.61.71-1.15 1.86-1.01 2.96 1.07.08 2.16-.56 2.83-1.36z" />
+              </svg></div>
             <h3>macOS App Store Edition</h3>
             <ul>
               <li><strong>Operating System:</strong> macOS 11.0 (Big Sur), macOS 12, 13, 14, or 15+</li>
@@ -376,7 +454,10 @@
           </div>
 
           <div class="spec-card">
-            <div class="spec-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" opacity="0.6"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.8"/></svg></div>
+            <div class="spec-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" opacity="0.6">
+                <path
+                  d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-13.051-1.8" />
+              </svg></div>
             <h3>Windows Store Edition</h3>
             <ul>
               <li><strong>Status:</strong> Coming Soon to Microsoft Store</li>
@@ -416,7 +497,8 @@
       <div class="footer-links-group">
         <div class="footer-col">
           <h4>Download</h4>
-          <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank" rel="noopener">Mac App Store</a>
+          <a href="https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12" target="_blank"
+            rel="noopener">Mac App Store</a>
           <a href="#specs">System Requirements</a>
         </div>
 
@@ -441,4 +523,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
