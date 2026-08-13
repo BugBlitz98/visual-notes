@@ -8,7 +8,7 @@ This directory contains the ultra-premium HTML5, CSS3, and JavaScript landing pa
 
 - **App Name**: Canvas Notes Studio
 - **Mac App Store Official Link**: `https://apps.apple.com/us/app/canvas-notes-studio/id6794408320?mt=12`
-- **Windows Edition**: Marked as **Coming Soon**
+- **Microsoft Store Official Link**: `https://apps.microsoft.com/detail/9ng907z8hk4f?hl=en-GB&gl=IN`
 - **Mobile Links**: Removed completely as requested.
 - **Product Intro Video**: Prominent video player container in hero section (`assets/intro-video-cover.png`).
 - **Image Analysis Showcase**: AI Visual Image Analysis feature section (`assets/image-analysis-preview.png`).
